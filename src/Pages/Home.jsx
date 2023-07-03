@@ -1,5 +1,6 @@
 import AboutMe from "../Components/Home/AboutMe";
 import Banner from "../Components/Home/Banner";
+import ContactMe from "../Components/Home/ContactMe";
 import MyProjects from "../Components/Home/MyProjects";
 import Skills from "../Components/Home/Skills";
 import Tools from "../Components/Home/Tools";
@@ -12,6 +13,7 @@ const Home = () => {
       <Skills />
       <Tools />
       <MyProjects />
+      <ContactMe />
     </div>
   );
 };

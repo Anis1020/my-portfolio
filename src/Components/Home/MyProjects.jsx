@@ -1,14 +1,15 @@
 import sportsSchool from "../../assets/projects img/Sports School Project.png";
 const MyProjects = () => {
   return (
-    <div className="my-8">
+    <div className="mt-8">
       <h2 className="text-2xl text-primary underline">My Projects</h2>
+
       <div className="my-12 flex flex-col gap-3 md:flex-row">
         <div
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className=" w-[350px] md:w-[400px] h-full shadow-2xl my-8 md:my-0 p-4 "
+          className=" w-[350px] md:w-[400px] h-full shadow-2xl my-6 md:my-0 p-4 "
         >
           <img
             src={sportsSchool}
@@ -16,6 +17,9 @@ const MyProjects = () => {
             alt=""
           />
           <h2 className="text-2xl text-primary my-3">Sports School</h2>
+          <button className="btn btn-link">Live Link</button>
+          <button className="btn btn-link">Clint Link</button>
+          <button className="btn btn-link">Server Link</button>
           <h2>
             This is a full stack sports trading school website. It has firebase
             authentication, stripe payment gateway, admin instructor and user
@@ -29,7 +33,7 @@ const MyProjects = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className=" w-[350px] md:w-[400px] h-full my-8 md:my-0 p-4 shadow-2xl "
+          className=" w-[350px] md:w-[400px] h-full my-6 md:my-0 p-4 shadow-2xl "
         >
           <img
             src={sportsSchool}
@@ -37,6 +41,9 @@ const MyProjects = () => {
             alt=""
           />
           <h2 className="text-2xl text-primary my-3">Sports School</h2>
+          <button className="btn btn-link">Live Link</button>
+          <button className="btn btn-link">Clint Link</button>
+          <button className="btn btn-link">Server Link</button>
           <h2>
             This is a full stack sports trading school website. It has firebase
             authentication, stripe payment gateway, admin instructor and user
@@ -50,7 +57,7 @@ const MyProjects = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          className=" w-[350px] md:w-[400px] h-full my-8 md:my-0 p-4 shadow-2xl "
+          className=" w-[350px] md:w-[400px] h-full my-6 md:my-0 p-4 shadow-2xl "
         >
           <img
             src={sportsSchool}
@@ -58,6 +65,9 @@ const MyProjects = () => {
             alt=""
           />
           <h2 className="text-2xl text-primary my-3">Sports School</h2>
+          <button className="btn btn-link">Live Link</button>
+          <button className="btn btn-link">Clint Link</button>
+          <button className="btn btn-link">Server Link</button>
           <h2>
             This is a full stack sports trading school website. It has firebase
             authentication, stripe payment gateway, admin instructor and user

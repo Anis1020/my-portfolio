@@ -10,9 +10,9 @@ const Footer = () => {
             alt=""
           />
           <p>
-            ACME Industries Ltd.
+            ANIS Industries Ltd.
             <br />
-            Providing reliable tech since 1992
+            Providing reliable tech since 2022
           </p>
         </div>
         <div>

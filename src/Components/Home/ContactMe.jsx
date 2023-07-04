@@ -53,7 +53,7 @@ const ContactMe = () => {
             <div className="card-body shadow-2xl ">
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Name</span>
+                  <span className="label-text">Your Name</span>
                 </label>
                 <input
                   type="text"
@@ -63,7 +63,7 @@ const ContactMe = () => {
               </div>
               <div className="form-control">
                 <label className="label">
-                  <span className="label-text">Email</span>
+                  <span className="label-text">Your Email</span>
                 </label>
                 <input
                   type="email"

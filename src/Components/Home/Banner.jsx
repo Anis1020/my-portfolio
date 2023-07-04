@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 import Lottie from "lottie-react";
 import programing from "../../programing.json";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   const handleType = (count) => {
@@ -47,9 +48,12 @@ const Banner = () => {
               Download Resume
             </a>
           </button>
-          <button className="btn my-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+          <Link
+            to="contact"
+            className="btn my-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 "
+          >
             Hire Me
-          </button>
+          </Link>
         </div>
       </div>
       <div data-aos="fade-left">

@@ -1,5 +1,8 @@
 import { Typewriter } from "react-simple-typewriter";
-import anis from "../../assets/anis pic.jpg";
+// import anis from "../../assets/anis pic.jpg";
+
+import Lottie from "lottie-react";
+import programing from "../../programing.json";
 
 const Banner = () => {
   const handleType = (count) => {
@@ -12,8 +15,8 @@ const Banner = () => {
   };
 
   return (
-    <div className="flex flex-col-reverse md:flex-row p-5 items-center justify-around bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
-      <div>
+    <div className="flex flex-col-reverse shadow-2xl md:flex-row p-5 items-center justify-around bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+      <div data-aos="fade-right" className="shadow-2xl px-10 p-4 rounded">
         <h2 className="text-2xl text-black">Hi There, I am Anisur Rahman</h2>
         <h2>
           <strong className="text-black text-xl">I am a Passionate</strong>
@@ -44,13 +47,22 @@ const Banner = () => {
               Download Resume
             </a>
           </button>
-          <button className="btn bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
+          <button className="btn my-5 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 ">
             Hire Me
           </button>
         </div>
       </div>
-      <div>
-        <img src={anis} className="w-64 h-64 rounded-full mb-4" alt="" />
+      <div data-aos="fade-left">
+        {/* <img
+          src={anis}
+          className="w-64 shadow-2xl p-3 h-64 rounded-full mb-4"
+          alt=""
+        /> */}
+        <Lottie
+          animationData={programing}
+          loop={true}
+          className="w-64 shadow-2xl p-3 h-64 rounded-full mb-4"
+        />
       </div>
     </div>
   );

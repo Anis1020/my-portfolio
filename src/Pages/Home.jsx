@@ -4,10 +4,11 @@ import ContactMe from "../Components/Home/ContactMe";
 import MyProjects from "../Components/Home/MyProjects";
 import Skills from "../Components/Home/Skills";
 import Tools from "../Components/Home/Tools";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="my-bg">
       <Banner />
       <AboutMe />
       <Skills />

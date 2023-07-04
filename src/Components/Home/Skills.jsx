@@ -7,15 +7,19 @@ import {
   FaNodeJs,
   FaReact,
 } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
+
 import tailwind from "../../assets/tools-icon/icons8-tailwindcss-48.png";
 const Skills = () => {
   return (
     <>
-      <div className="my-18">
-        <h2 className="text-2xl text-primary underline my-5">My Skills</h2>
-
-        <div className="grid grid-cols-4 gap-3 my-4">
-          <div className=" border-solid border-4 border-sky-500 px py-1 w-64">
+      <h2 className="text-2xl text-primary underline my-5">My Skills</h2>
+      <div data-aos="fade-up" className="">
+        <div className="grid grid-col-3 ml-9 md:grid-cols-4 gap-3 my-4 shadow-2xl p-3">
+          <div className=" border-solid border-4  border-sky-500 px py-1 w-64">
             <FaHtml5 className="m-auto text-4xl text-yellow-500"></FaHtml5>
             <small>HTML</small>
           </div>

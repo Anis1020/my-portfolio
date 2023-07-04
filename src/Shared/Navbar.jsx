@@ -6,9 +6,9 @@ const Navbar = () => {
     console.log("hi");
   };
   return (
-    <div className="bg-slate-500 h-3 p-5 flex  items-center ">
-      <div className="flex  items-center">
-        <img src={anis} className="w-10 h-10 rounded-full" alt="anis" />
+    <div className="bg-slate-500  h-3 p-5 flex  items-center ">
+      <div className="flex p-2  items-center">
+        <img src={anis} className="w-10 h-10  rounded-full" alt="anis" />
         <FaBars onClick={handleNavMenu} className="md:hidden ml-56"></FaBars>
       </div>
       <div className=" hidden md:block ml-auto ">

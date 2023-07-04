@@ -34,14 +34,21 @@ const ContactMe = () => {
 
   return (
     <>
-      <h2 className="text-2xl text-primary underline">My Contact Info</h2>
-      <p className="w-full md:w-5/12 m-auto mt-2">
-        Contact me directly through the provided form or reach out via the
-        provided contact details to discuss potential collaborations, project
-        inquiries, or any other questions you may have.
-      </p>
+      <div data-aos="zoom-out">
+        <h2 className="text-2xl text-primary underline">My Contact Info</h2>
+        <p className="w-full md:w-5/12 m-auto mt-2">
+          Contact me directly through the provided form or reach out via the
+          provided contact details to discuss potential collaborations, project
+          inquiries, or any other questions you may have.
+        </p>
+      </div>
       <div className="my-5 flex flex-col md:flex-row gap-10 items-center">
-        <div className="w-full md:w-6/12">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="w-full md:w-6/12"
+        >
           <form ref={form} onSubmit={sendEmail}>
             <div className="card-body shadow-2xl ">
               <div className="form-control">
@@ -95,7 +102,7 @@ const ContactMe = () => {
             <input type="submit" value="Send" />
           </form> */}
         </div>
-        <div className="w-full md:w-6/12 px-10  space-y-4">
+        <div data-aos="flip-left" className="w-full md:w-6/12 px-10  space-y-4">
           <p className="flex items-center gap-2 text-2xl">
             <FaRegEnvelope />
             <h2 className="">anis.dapunia@gmail.com</h2>

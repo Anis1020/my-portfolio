@@ -16,7 +16,7 @@ const Tools = () => {
     <div className="my-10">
       <h2 className="text-2xl text-primary underline">Tools</h2>
       <h2>I am Comfort with those tools</h2>
-      <Marquee className="my-4">
+      <Marquee className="my-4 shadow-2xl p-3">
         <div className="ml-8  border-double border-4 border-sky-500 p-3">
           <img src={vsCode} className="m-auto text-5xl w-20 h-20"></img>
           <small>Vs Code</small>

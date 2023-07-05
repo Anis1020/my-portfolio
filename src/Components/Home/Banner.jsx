@@ -65,7 +65,7 @@ const Banner = () => {
         <Lottie
           animationData={programing}
           loop={true}
-          className="w-64 shadow-2xl p-3 h-64 rounded-full mb-4"
+          className="w-64 md:w-[450px] md:h-[450px] shadow-2xl p-3 h-64 rounded-full mb-4"
         />
       </div>
     </div>
